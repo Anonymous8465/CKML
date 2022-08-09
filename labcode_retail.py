@@ -55,7 +55,6 @@ class Recommender:
             a=time.time()
             reses = self.trainEpoch()
             b=time.time()
-            print('train_time',b-a)
             log(self.makePrint('Train', ep, reses, test))
             if test:
                 reses = self.testEpoch() 
@@ -537,7 +536,6 @@ class Recommender:
         ret['Loss'] = epochLoss / steps
         ret['preLoss'] = epochPreLoss / steps
         ret['auxLoss'] = epochAuxLoss / steps
-        print('run_time',tot)
         return ret
 
     def sampleTestBatch(self, batchIds, label, tstInt):
