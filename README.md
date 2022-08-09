@@ -5,7 +5,7 @@ The code has been tested running under Python 3.7.12. The required packages are 
 - tensorflow == 1.15
 - tensorflow-determinism == 0.3.0
 - numpy == 1.19.5
-- scipy == 1.5.3
+- scipy == 1.7.3
 
 
 For Yelp data, use the following command to train and test
