@@ -3,6 +3,7 @@ This is our Tensorflow implementation for CKML.
 
 The code has been tested running under Python 3.6.15. The required packages are as follows:
 - tensorflow == 1.15.4
+- tensorflow-determinism == 0.3.0
 - numpy == 1.19.5
 - scipy == 1.5.3
 
