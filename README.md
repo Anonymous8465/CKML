@@ -23,3 +23,10 @@ For Online Retail data,
 ```
 python labcode_retail.py --data retail
 ```
+
+
+
+For Tmall data, 
+```
+python labcode_retail.py --data tmall
+```
