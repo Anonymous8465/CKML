@@ -85,6 +85,14 @@ elif args.data == 'retail':
     args.encoder = 'gccf'
     args.temp = 20
     args.kg_mult=100
+elif args.data == 'tmall':
+    args.use_att = 'new_selfattention'
+    args.gnn_layer = 4
+    args.graphSampleN = 25000
+    args.loss_alphas = '[1,0,0.4,1]'
+    args.mult = 1
+    args.encoder = 'gccf'
+    args.temp = 10
 else:
     raise 'dataset is invalid!'
 
