@@ -15,6 +15,9 @@ elif args.data == 'ml10m':
 elif args.data == 'retail':
     predir = './Datasets/retail/'
     behs = ['pv', 'fav', 'cart', 'buy']
+elif args.data == 'tmall':
+    predir = './Datasets/Tmall/'
+    behs = ['pv', 'fav', 'cart', 'buy']
 trnfile = predir + 'trn_'
 tstfile = predir + 'tst_'
 
