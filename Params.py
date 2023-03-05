@@ -93,6 +93,7 @@ elif args.data == 'tmall':
     args.mult = 1
     args.encoder = 'gccf'
     args.temp = 10
+    args.kg_mult=100
 else:
     raise 'dataset is invalid!'
 
